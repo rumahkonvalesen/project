@@ -1,0 +1,169 @@
+body{font-family: 'Montserrat' sans-serif;}
+/*SCROLL ON CLICK*/
+html{
+	scroll-behavior: smooth;
+}
+
+/*ADJUST FOR SMALLER DEVICE*/
+@media only screen and (max-width:992px){
+	.nav-item > .nav-link{
+		color: white!important;
+		font-weight: 600!important;}
+	
+	p{
+		font-size: 15px !important;
+			}
+			/*ADJUST TEXT INTRO*/
+	.col-md-12 {
+		position: absolute;
+		top: 84%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		}
+}
+/*ADJUST PADDING*/
+@media only screen and (min-width:1200px){
+	.nav-item > .nav-link{
+		padding: 5px 20px !important;
+		display: block !important;
+	}
+}
+.navbar-nav li{
+	display: inline-block;
+	float: none;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	color: #ffffff99;
+	text-decoration: none;
+}
+/*PAGE INTRO*/
+.mainpage{
+color: #FFFFFF;
+	background-image: linear-gradient(#F01D1D, #8E1818);
+	min-height: 900px;
+	height:100%;
+	position: relative;
+	background-position: center center;
+	overflow: hidden;
+	background-size: cover;
+	padding-top: 400px;
+}
+/*ADJUST TEXT INTRO*/
+.col-md-12 {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+/*TEXT INTRO*/
+.intro{
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 1.5;
+	position: relative;
+	z-index: 2;
+}
+/*SMALL TEXT INTRO*/
+p{
+	font-size: 17px;
+	font-weight: lighter;
+}
+.p{
+	font-size: 15px;
+	font-weight: lighter;
+}
+/*DAFTAR BUTTON NAVBAR*/
+.header-btn{color:#DC3545;
+	border-radius: 50px;
+	background-color: white;
+	border:none;
+	font-weight: 500;
+	outline: none;
+	font-size: 15px;
+	padding:7px 22px;
+	transition: 0.5s;
+}
+
+.header-btn:hover{
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+
+/*NAVBAR TEXT COLOR*/
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    opacity: 0.6;
+}
+/*NAVBAR TEXT HOVER*/
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    opacity: 1;
+}
+ /*NAVBAR BUTTON*/
+.nav-item .nav-link{
+	display: block;
+	line-height: 36px;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+	transition: 0.25s;}
+/*NAVBAR TEXT COLOR IF ACTIVE*/
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-nav .show>.nav-link {
+    color: rgb(255 255 255);
+    opacity: 1;
+}
+/*navbar toggler*/
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255);
+    border-color: rgb(255 255 255 / 0%);
+}
+.content{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	float: left;
+}
+
+table,
+tr,
+tbody,
+td {
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+section{
+	background-color: #901818;
+	color: white;
+	padding: 4rem 0rem 2rem;
+}
+/*PERTANYAAN*/
+.section{
+	background-color: transparent;
+	padding: 4rem 0rem 2rem;
+}
+/*SCROLL ON CLICK*/
+#swab{
+	height: auto;
+}
+#plasma{
+	height: auto;
+}
+#syarat{
+	height: auto;
+}
+#alur{
+	height: auto;
+}
+#daftar{
+	height: auto;
+}

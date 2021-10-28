@@ -1,0 +1,70 @@
+body{font-family: 'Montserrat' sans-serif;}
+/*ADJUST FOR SMALLER DEVICE*/
+@media only screen and (max-width:992px){
+	.nav-item > .nav-link{
+		color: #ee1d1d!important;
+		font-weight: 600!important;}
+	.navbar-light .navbar-nav .nav-link {
+        color: #ee1d1d;
+			}
+}
+/*ADJUST PADDING*/
+@media only screen and (min-width:1200px){
+	.nav-item > .nav-link{
+		padding: 5px 20px !important;
+		display: block !important;
+	}
+}
+/*DAFTAR BUTTON NAVBAR*/
+.header-btn{color: white;
+	border-radius: 50px;
+	background-color: #DC3545;
+	border:none;
+	font-weight: 500;
+	outline: none;
+	font-size: 15px;
+	padding:7px 22px;
+	transition: 0.5s;
+}
+
+.header-btn:hover{
+	background-color: white;
+	color: #DC3545;
+	cursor: pointer;
+}
+/*NAVBAR TEXT COLOR*/
+.navbar-light .navbar-nav .nav-link {
+    color: #ee1d1d;
+    opacity: 0.6;
+}
+/*NAVBAR TEXT HOVER*/
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ee1d1d;
+    opacity: 1;
+}
+ /*NAVBAR BUTTON*/
+.nav-item .nav-link{
+	display: block;
+	line-height: 36px;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ee1d1d;
+	transition: 0.25s;}
+/*NAVBAR TEXT COLOR IF ACTIVE*/
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-nav .show>.nav-link {
+    color: rgb(238 29 29);
+    opacity: 1;
+}
+/*navbar toggler*/
+.navbar-light .navbar-toggler {
+    color: rgb(238 29 29);
+    border-color: rgb(238 29 29 / 0%);
+}
+
+
+section{
+	background-color: white;
+	padding: 4rem 0rem 4rem;
+}

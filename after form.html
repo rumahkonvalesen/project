@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="Assets/favicon-rk.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style type="text/css">
+      /*BACKGROUND*/
+      .bg{
+        background-image: linear-gradient(#F01D1D, #8E1818);
+        background-repeat: repeat-y;
+	    background-attachment: fixed;
+        size: cover;
+
+      }
+      /*FORM CONTENT*/
+      .form-container{
+        position: relative;
+        top: 5vh;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px #000;
+      }
+      /*SUBMIT*/
+      .btn{
+        height: 55px;
+      }
+      .btn:hover{
+        background-color: white;
+        color: red;
+      }
+      a{
+        text-decoration: none;
+        color: red;
+      }
+      a:hover{
+        color: red;
+
+      }
+
+      input[type="file"] {
+        position: absolute;
+        z-index: -1;
+        top: 10px;
+        left: 8px;
+        font-size: 17px;
+        color: #DC3545;
+      }
+      .button-wrap {
+        position: relative;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 14px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #DC3545;
+        font-size: 16px;
+        color: #fff;
+        border: 1px solid #DC3545;
+      }
+      .button:hover{
+        background-color: white;
+        color: #DC3545;
+        border: 1px solid #DC3545;
+      }
+      /*INPUT RADIO COLOR*/
+      .custom-control-input:checked~.custom-control-label::before {
+        color: #fff;
+        border-color: #DC3545;
+        background-color: #DC3545;
+      }
+      /*ADJUSTMEN FOR SMALLER DEVICE*/
+      @media only screen and (max-width: 576px) { 
+        
+        .bg{
+        background-image: linear-gradient(#F01D1D, #8E1818);
+        background-repeat: repeat-y;
+	    background-attachment: fixed;
+        size: cover;
+
+      }
+      }
+     
+    </style>
+
+    <title>Terimakasih sudah mendaftar :)</title>
+  </head>
+  <body class="bg">
+    <section class="container-fluid bg">
+      <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-5 ">
+
+<!--------------------------------------------FORM---------------------------------------------------->
+      <form class="needs-validation" data-toggle="validator" role="form" action="home.html">
+<!-----------------------------------------HEADER TEXT---------------------------------------------------->
+  <div class="form-container ">
+    <center><img src="Assets/rumahkonvalesen-logo_form.svg" align="center" width="250" height="250"></center>
+  <h3 align="center">TERIMAKASIH SUDAH MENDAFTARKAN DIRI MENJADI PAHLAWAN :)</h3><br>
+   <p>Jika memenuhi kriteria, kami akan segera menghubungi pendaftar!</p>
+   <sub>*dibutuhkan pengecekan, jika tidak ada konfirmasi apapun selama lebih dari 10 hari, silahkan hubungi <a href="cs.html">Customer service</a></sub><br><br>
+<!----------------------------------------DAFTAR BUTTON---------------------------------------------------->
+<div class="d-grid"><button class="btn btn-danger btn-block" type="submit" name="submit">Kembali ke beranda</button></div>
+  
+</form>
+</div><br><br>
+</section>
+</section>
+</section>
+
+
+<script type="text/javascript">
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

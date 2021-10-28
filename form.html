@@ -1,0 +1,475 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="Assets/favicon-rk.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style type="text/css">
+      /*BACKGROUND*/
+      .bg{
+        background-image: linear-gradient(#F01D1D, #8E1818);
+        background-repeat: repeat-y;
+	    background-attachment: fixed;
+        size: cover;
+
+      }
+      /*FORM CONTENT*/
+      .form-container{
+        position: relative;
+        top: 5vh;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px #000;
+      }
+      /*SUBMIT*/
+      .btn{
+        height: 55px;
+      }
+      .btn:hover{
+        background-color: white;
+        color: red;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: red;
+        text-decoration: none;
+      }
+      /*INPUT FILE*/
+       .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        left: 0;
+      }
+
+      input:focus {
+        outline: 0;
+        border-color: red;
+}
+      input[type="file"] {
+        position: absolute;
+        z-index: -1;
+        top: 10px;
+        left: 8px;
+        font-size: 17px;
+        color: #DC3545;
+      }
+      .button-wrap {
+        position: relative;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 14px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #DC3545;
+        font-size: 16px;
+        color: #fff;
+        border: 1px solid #DC3545;
+      }
+      .button:hover{
+        background-color: white;
+        color: #DC3545;
+        border: 1px solid #DC3545;
+      }
+      .custom-control-input:checked~.custom-control-label::before {
+        color: #fff;
+        border-color: #DC3545;
+        background-color: #DC3545;
+      }
+      /*ADJUSTMEN FOR SMALLER DEVICE*/
+      @media only screen and (max-width: 576px) { 
+        
+        .bg{
+        background-image: linear-gradient(#F01D1D, #8E1818);
+        background-repeat: repeat-y;
+	    background-attachment: fixed;
+        size: cover;
+
+      }
+      }
+     
+    </style>
+
+    <title>Daftar | Rumah Konvalesen</title>
+  </head>
+  <body class="bg">
+
+    <section class="container-fluid bg">
+      <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-5 ">
+
+<!--------------------------------------------FORM---------------------------------------------------->
+      <form class="needs-validation" data-toggle="validator" role="form" name="myform" onsubmit="return validation()" novalidate action="#" method="post">
+<!-----------------------------------------HEADER TEXT---------------------------------------------------->
+  <div class="form-container ">
+    <center><img src="Assets/rumahkonvalesen-logo_form.svg" align="center" width="250" height="250"></center>
+  <h3 align="center">Ayo jadi bagian dari penyelamat dunia!</h3><br>
+<!----------------------------------------NAMA LENGKAP---------------------------------------------------->
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom01">Nama lengkap</label>
+      <input type="text" class="form-control" id="validationCustom01" required>
+      <div class="invalid-feedback">
+        Harap mengisi nama lengkap!
+      </div>
+    </div>
+<!--------------------------------------------USIA---------------------------------------------------->
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Usia</label>
+      <input type="text" class="form-control" id="validationCustom02" required>
+      <div class="invalid-feedback">
+        Harap mengisi usia!
+      </div>
+    </div>
+
+  </div>
+<!-----------------------------------------TGL LAHIR---------------------------------------------------->
+  <div class="form-row">
+     <div class="col-md-3 mb-3">
+      <label for="validationCustom04">Tanggal lahir</label>
+      <select class="custom-select" id="validationCustom04" required>
+        <option selected disabled value=""></option>
+        <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+      </select>
+      <div class="invalid-feedback">
+        Harap memilih tanggal lahir!
+      </div>
+    </div>
+<!---------------------------------------------BULAN---------------------------------------------------->
+    <div class="col-md-3 mb-3">
+      <label for="inimilihbulan">Bulan</label>
+      <select class="custom-select" id="inimilihbulan" required>
+        <option selected disabled value=""></option>
+        <option>Januari</option>
+            <option>Februari</option>
+            <option>Maret</option>
+            <option>April</option>
+            <option>Mei</option>
+            <option>Juni</option>
+            <option>Juli</option>
+            <option>Agustus</option>
+            <option>September</option>
+            <option>Oktober</option>
+            <option>November</option>
+            <option>Desember</option>
+      </select>
+      <div class="invalid-feedback">
+        Harap memilih bulan lahir!
+      </div>
+    </div>
+<!---------------------------------------------TAHUN---------------------------------------------------->
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Tahun</label>
+      <input type="text" pattern="^[_0-9]{1,}$" maxlength="4" class="form-control" id="validationCustom05" placeholder="Tahun" required>
+      <div class="invalid-feedback">
+        Harap mengisi tahun kelahiran!
+      </div>
+    </div>
+  </div>
+<!---------------------------------------------GENDER---------------------------------------------------->
+        <label >Jenis kelamin </label>
+  <div class="form-group">
+    <div class="form-check">
+      <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+    <label class="custom-control-label" for="customControlValidation2">Laki-laki</label>
+  </div>
+  <div class="custom-control custom-radio mb-3 custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+    <label class="custom-control-label" for="customControlValidation3">Perempuan</label>
+    <div class="invalid-feedback">Harap memilih jenis kelamin!</div>
+    </div>
+  </div>
+<!----------------------------------------------NIK---------------------------------------------------->
+<div class="form-row">
+ <div class="col-md-5 mb-3">
+      <label for="nik">NIK</label>
+      <input type="text" pattern="^[_0-9]{1,}$" maxlength="16" class="form-control" id="nik" required>
+      <div class="invalid-feedback">
+        Harap masukan nomor NIK!
+      </div>
+    </div>
+<!-------------------------------------------NO.TELP---------------------------------------------------->
+    <div class="col-md-5 mb-3">
+      <label for="nomor">Nomer telepon aktif</label>
+      <input type="text" pattern="^[_0-9]{1,}$" class="form-control" id="nomor" required>
+      <div class="invalid-feedback">
+        Harap masukan nomor telepon!
+      </div>
+    </div>
+</div>
+
+<!------------------------------------------TGL COVID---------------------------------------------------->
+  <div class="form-row">
+     <div class="col-md-7 mb-3">
+      <h5>Tanggal dinyatakan POSITIF</h5></div></div>
+<div class="form-row">
+      <div class="col-md-3 mb-3">
+        <label for="tgl">Tanggal</label>
+      <select class="custom-select" id="tgl" required>
+        <option selected disabled value=""></option>
+        <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+      </select>
+      <div class="invalid-feedback">
+        Harap memilih tanggal dinyatakan POSITIF!
+      </div></div>
+
+<!-----------------------------------------BULAN COVID---------------------------------------------------->
+    <div class="col-md-3 mb-3">
+      <label for="bln">Bulan</label>
+      <select class="custom-select" id="bln" required>
+        <option selected disabled value=""></option>
+        <option>Januari</option>
+            <option>Februari</option>
+            <option>Maret</option>
+            <option>April</option>
+            <option>Mei</option>
+            <option>Juni</option>
+            <option>Juli</option>
+            <option>Agustus</option>
+            <option>September</option>
+            <option>Oktober</option>
+            <option>November</option>
+            <option>Desember</option>
+      </select>
+      <div class="invalid-feedback">
+        Harap memilih bulan dinyatakan POSITIF!
+      </div>
+    </div>
+<!-----------------------------------------TAHUN COVID---------------------------------------------------->
+    <div class="col-md-3 mb-3">
+      <label for="thn">Tahun</label>
+      <input type="text" pattern="^[_0-9]{1,}$" maxlength="4" class="form-control" id="thn" placeholder="Tahun" required>
+      <div class="invalid-feedback">
+        Harap mengisi tahun dinyatakan POSITIF!
+      </div>
+    </div>
+  </div>
+<!-----------------------------------------SURAT SWAB---------------------------------------------------->
+<div class="form-row">
+ <div class="col-md-6 mb-3">
+      <label class="input" for="upload">Bukti surat dinyatakan POSITIF</label>
+      <div class="container">
+      <div class="button-wrap">
+        <label class="button" for="upload">Upload File</label>
+        <input id="upload" type="file" accept="image/jpg,image/jpeg,application/pdf">
+      </div>
+    </div>
+    </div></div>
+  <!------------------------------------------TGL NEGATIF---------------------------------------------------->
+  <div class="form-row">
+     <div class="col-md-7 mb-3">
+      <h5>Tanggal dinyatakan NEGATIF</h5></div></div>
+
+<div class="form-row">
+      <div class="col-md-3 mb-3">
+        <label for="inimilihtanggal">Tanggal</label>
+      <select class="custom-select" id="inimilihtanggal" required>
+        <option selected disabled value=""></option>
+        <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+      </select>
+      <div class="invalid-feedback">
+        Harap memilih tanggal dinyatakan NEGATIF!
+      </div></div>
+
+<!-----------------------------------------BULAN COVID---------------------------------------------------->
+    <div class="col-md-3 mb-3">
+      <label for="thisismoon">Bulan</label>
+      <select class="custom-select" id="thisismoon" required>
+        <option selected disabled value=""></option>
+        <option>Januari</option>
+            <option>Februari</option>
+            <option>Maret</option>
+            <option>April</option>
+            <option>Mei</option>
+            <option>Juni</option>
+            <option>Juli</option>
+            <option>Agustus</option>
+            <option>September</option>
+            <option>Oktober</option>
+            <option>November</option>
+            <option>Desember</option>
+      </select>
+      <div class="invalid-feedback">
+        Harap memilih bulan dinyatakan NEGATIF!
+      </div>
+    </div>
+<!-----------------------------------------TAHUN NEGATIF---------------------------------------------------->
+    <div class="col-md-3 mb-3">
+      <label for="kaloinitahun">Tahun</label>
+      <input type="text" pattern="^[_0-9]{1,}$" maxlength="4" class="form-control" id="kaloinitahun" placeholder="Tahun" required>
+      <div class="invalid-feedback">
+        Harap mengisi tahun dinyatakan NEGATIF!
+      </div>
+    </div>
+  </div>
+
+<!----------------------------------------SURAT NEGATIF---------------------------------------------------->
+<div class="form-row">   
+    <div class="col-md-6 mb-3">
+      <label for="manabuktinya?">Bukti surat dinyatakan NEGATIF</label>
+       <div class="container">
+      <div class="buttosn-wrap">
+        <label class="button" for="manabuktinya?">Upload File</label>
+        <input id="manabuktinya?" type="file" accept="image/jpg,image/jpeg,application/pdf">
+      </div>
+    </div>
+    </div>
+
+    </div> 
+</div><br>
+<!----------------------------------------DAFTAR BUTTON---------------------------------------------------->
+<div class="d-grid"><button class="btn btn-danger btn-block" href="after form.html" type="submit" name="submit">Daftar</button></div><br>
+  <center>Tidak tahu cara mendaftar? klik <a href="help1.html#daftar" style="color: red; text-decoration: underline;" target="_blank">disini</a></center>
+</form>
+</div>
+</section>
+</section>
+</section>
+<br><br>
+<!----------------------------------VALIDASI INPUT FILE
+<script>
+  var img=document.forms['myform']['img_upload'];
+  var validExt=["jpeg","png","jpg"];
+
+  function validation()
+  {
+    if (img.value!='') {
+    var pos_of_dot=img.value.lastIndexOf('.');
+    var img_ext=img.value.substring(pos_of_dot);
+
+    var result=validExt.includes(img.ext);
+    if (result==false) {
+      alert("unsupported");
+      return false;
+    }
+    }
+  else{
+    alert("no image selected");
+    return false;
+
+  }
+}
+</script>---------------------------------------------------->
+<script type="text/javascript">
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
