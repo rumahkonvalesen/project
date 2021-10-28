@@ -5,7 +5,7 @@ if you just want to look at it or see the code, it's okay bcz some code i took f
 the website : 
 <br><br>
 CREDIT :<br>
--Adelia Nadwa (Logo & final design) <br>
+-Adelia Nadwa (Logo, final design, the "founder" of Rumahkonvalesen) <br>
 -Raihan Adin (Web design concepts)<br>
 -Fatma Uerika   (Leader)<br>
 -Avandi Wardana (Backend & database)<br>
