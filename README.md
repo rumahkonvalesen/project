@@ -1,4 +1,4 @@
-# rumahkonvalesen<br>
+# project<br>
 <i>*This note is created by ADELIA</i><br><br>
 This is OUR project during an internship (Cancelled project). DON'T YOU DARE TO STEAL THE LOGOs and THE VECTOR/ILLUSTRATIONs!!<br>
 if you just want to look at it or see the code, it's okay bcz some code i took from bootstrap lmao😂+some bootstrap code i copied from inspect so i can modif some element<br>
