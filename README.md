@@ -1,7 +1,16 @@
 # rumahkonvalesen
-This is MY TEAM project during an internship (Cancelled project). DON'T STEAL THE LOGOs and THE VECTOR/ILLUSTRATIONs!!
-if you just want to look at it or see the code, it's okay bcz some code i took from bootstrap lmao😂+some bootstrap code i copied from inspect so i can modif some element
+This is MY TEAM project during an internship (Cancelled project). DON'T YOU DARE TO STEAL THE LOGOs and THE VECTOR/ILLUSTRATIONs!!<br>
+if you just want to look at it or see the code, it's okay bcz some code i took from bootstrap lmao😂+some bootstrap code i copied from inspect so i can modif some element<br>
 the website : https://broadel14.github.io/rumahkonvalesen/
+<br><br>
+CREDIT :<br>
+-Adelia Nadwa (Logo & final design) <br>
+-Raihan Adin (Web design concepts)<br>
+-Fatma Uerika   (Leader)<br>
+-Avandi Wardana (Backend & database)<br>
+-Nurul Fijai    (Backend & database)<br><br>
 
-I have 2 YouTube channels (BroAdel) & (Ranged Rango), you can watch and SUBSCRIBE if you like it
+*the backend & database literally didn't exist bcz my mentor cancelling the project before that 2 finished, that's why i upload it here.
+<br>
+I have 2 YouTube channels (BroAdel) & (Ranged Rango), you can watch and SUBSCRIBE if you like it<br><br>
 I also made a music (some instrumental track that you can use the track for your content), listen it on : https://songwhip.com/broadel
