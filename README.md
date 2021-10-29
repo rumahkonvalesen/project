@@ -5,8 +5,8 @@ if you just want to look at it or see the code, it's okay bcz some code i took f
 the website : https://rumahkonvalesen.github.io/project/
 <br><br>
 CREDIT :<br>
--Adelia Nadwa (Logo, final design, the "founder" of Rumahkonvalesen) <br>
--Raihan Adin (Web design concepts)<br>
+-Adelia Nadwa (Logo, final design, front-end, and the "founder" of Rumahkonvalesen) <br>
+-Raihan Adin (Web design concepts & front-end)<br>
 -Fatma Uerika   (Leader)<br>
 -Avandi Wardana (Backend & database)<br>
 -Nurul Fijai    (Backend & database)<br><br>
